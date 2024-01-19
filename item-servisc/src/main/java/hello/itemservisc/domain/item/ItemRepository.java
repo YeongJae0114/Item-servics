@@ -22,7 +22,7 @@ public class ItemRepository {
     public Item findById(Long id){
         return store.get(id);
     }
-    public List<Item> finall(){
+    public List<Item> finAll(){
         return new ArrayList<>(store.values());
     }
 
