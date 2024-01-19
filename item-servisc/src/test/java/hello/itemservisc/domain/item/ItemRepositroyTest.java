@@ -35,7 +35,7 @@ public class ItemRepositroyTest {
         itemRepository.save(item1);
         itemRepository.save(item2);
         //when
-        List<Item> result = itemRepository.finall();
+        List<Item> result = itemRepository.finAll();
 
         //then
         assertThat(result.size()).isEqualTo(2);
